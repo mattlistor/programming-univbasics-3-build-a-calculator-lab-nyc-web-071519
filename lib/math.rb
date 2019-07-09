@@ -16,6 +16,7 @@ end
 
 def modulo(num1, num2)
   division = num1 / num2
+  roundedNum = division.to_int
   remainder = division - division.to_int
 end
 
