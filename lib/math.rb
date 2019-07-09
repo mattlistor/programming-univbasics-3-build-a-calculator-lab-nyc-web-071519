@@ -17,7 +17,7 @@ end
 def modulo(num1, num2)
   division = num1 / num2
   roundedNum = division.to_int
-  remainder = num1 - (roundedNum*num2)
+  remainder = num1 - ((num1 / num2).to_int - roundedNum*num2)
 end
 
 def square_root(num)
